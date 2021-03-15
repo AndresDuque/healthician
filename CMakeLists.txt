@@ -3,4 +3,4 @@ project(healthician)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(healthician main.cpp apps/helthician.cpp)
+add_executable(healthician main.cpp apps/healthician.cpp)
