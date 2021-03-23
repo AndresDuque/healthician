@@ -4,8 +4,8 @@
 
 // You may need to build the project (run Qt uic code generator) to get "ui_savewindow.h" resolved
 
-#include "savewindow.h"
-#include "ui_savewindow.h"
+#include "../include/savewindow.h"
+#include "../ui/ui_savewindow.h"
 
 savewindow::savewindow(QWidget *parent) :
         QWidget(parent), ui(new Ui::savewindow) {
