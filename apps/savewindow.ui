@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>savewindow</class>
+    <widget class="QWidget" name="savewindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>1170</width>
+                <height>766</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>MainWindow</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <widget class="QLabel" name="PatientNameLable">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>80</y>
+                        <width>71</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Nombre:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="PatientLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>80</y>
+                        <width>311</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="AdressLabe">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>120</y>
+                        <width>67</width>
+                        <height>20</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Dirección:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="AdressLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>90</x>
+                        <y>120</y>
+                        <width>311</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="PhoneLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>80</y>
+                        <width>67</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Teléfono:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="PhoneLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>540</x>
+                        <y>80</y>
+                        <width>241</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="EmailLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>120</y>
+                        <width>67</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Email:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="EmailLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>540</x>
+                        <y>120</y>
+                        <width>241</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="BirthdateLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>160</y>
+                        <width>151</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Fecha de Nacimiento:</string>
+                </property>
+            </widget>
+            <widget class="QDateEdit" name="BirthdateDateEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>170</x>
+                        <y>160</y>
+                        <width>111</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="JobLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>160</y>
+                        <width>81</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Profesión:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="JobLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>540</x>
+                        <y>160</y>
+                        <width>241</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="AgeLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>270</y>
+                        <width>51</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Edad:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="WeightLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>300</y>
+                        <width>41</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Peso:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="SizeLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>330</y>
+                        <width>41</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Talla:</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="HeightLabel">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>360</y>
+                        <width>51</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Altura:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="AgeLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>70</x>
+                        <y>270</y>
+                        <width>161</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="WeightLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>70</x>
+                        <y>300</y>
+                        <width>161</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="SizeLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>70</x>
+                        <y>330</y>
+                        <width>161</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="HeightLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>70</x>
+                        <y>360</y>
+                        <width>161</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QLabel" name="label">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>400</y>
+                        <width>91</width>
+                        <height>17</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Constitución:</string>
+                </property>
+            </widget>
+            <widget class="QLineEdit" name="BodyShapeLineEdit">
+                <property name="geometry">
+                    <rect>
+                        <x>110</x>
+                        <y>390</y>
+                        <width>121</width>
+                        <height>31</height>
+                    </rect>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="CardiacCheckBox">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>270</y>
+                        <width>92</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Cardiaco</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="EndocrineCheckBox">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>300</y>
+                        <width>92</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Endocrino</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="CirculationCheckBox">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>330</y>
+                        <width>101</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Circulación</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="DigestiveCheckBox">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>360</y>
+                        <width>92</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Digestivo</string>
+                </property>
+            </widget>
+            <widget class="QCheckBox" name="BloodPressureCheckBox">
+                <property name="geometry">
+                    <rect>
+                        <x>460</x>
+                        <y>390</y>
+                        <width>131</width>
+                        <height>23</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Tensión arterial</string>
+                </property>
+            </widget>
+            <widget class="QPushButton" name="SaveButton">
+                <property name="geometry">
+                    <rect>
+                        <x>1030</x>
+                        <y>670</y>
+                        <width>89</width>
+                        <height>25</height>
+                    </rect>
+                </property>
+                <property name="text">
+                    <string>Guardar</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="PatientData">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>30</y>
+                        <width>191</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>16</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Datos del paciente</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="HealthData">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>220</y>
+                        <width>191</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>16</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Datos sobre salud</string>
+                </property>
+            </widget>
+            <widget class="QLabel" name="LifeStyle">
+                <property name="geometry">
+                    <rect>
+                        <x>20</x>
+                        <y>450</y>
+                        <width>191</width>
+                        <height>21</height>
+                    </rect>
+                </property>
+                <property name="font">
+                    <font>
+                        <pointsize>16</pointsize>
+                    </font>
+                </property>
+                <property name="text">
+                    <string>Modo de vida</string>
+                </property>
+            </widget>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
