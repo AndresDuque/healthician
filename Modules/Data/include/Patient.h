@@ -2,7 +2,16 @@
 // Created by andres on 23/03/2021.
 //
 
-#ifndef HEALTHICIAN_PATIENT_H
-#define HEALTHICIAN_PATIENT_H
+#pragma once
 
-#endif //HEALTHICIAN_PATIENT_H
+#include <string>
+
+namespace data{
+    class Patient{
+    private:
+        std::string m_name{};
+    public:
+        Patient() = default;
+        ~Patient() = default;
+    };
+}
