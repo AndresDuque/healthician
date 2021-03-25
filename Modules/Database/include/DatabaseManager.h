@@ -4,17 +4,17 @@
 
 #pragma once
 
-#include <sqlite3.h>
+// #include <sqlite3.h>
 #include <string>
 #include <memory>
 
 namespace db{
-    class Database{
+    class DatabaseManager{
     private:
-        std::shared_ptr<sqlite3> m_db{};
+        // std::shared_ptr<sqlite3> m_db{};
     public:
-        Database() = default;
-        ~Database() = default;
+        DatabaseManager() = default;
+        ~DatabaseManager() = default;
 
 
     };
