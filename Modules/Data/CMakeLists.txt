@@ -29,3 +29,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 set_target_properties(${PROJECT_NAME} PROPERTIES
         VERSION ${PROJECT_VERSION}
         SOVERSION 1)
+
+## Building tests
+
+add_subdirectory(tests)
