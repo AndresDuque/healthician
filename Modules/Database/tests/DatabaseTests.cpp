@@ -9,13 +9,12 @@
 
 class DatabaseTest : public ::testing::Test{
 protected:
-    db::DatabaseManager patient;
+    db::DatabaseManager db;
 
 };
 
 TEST_F(DatabaseTest, patientNameOkay){
-    patient.setName("John");
-    ASSERT_TRUE("John" == patient.getName());
+
 }
 
 int main(int argc, char **argv) {

@@ -10,7 +10,7 @@ target_sources(${PROJECT_NAME} PRIVATE
         include/DatabaseManager.h
         )
 
-target_link_libraries(${PROJECT_NAME} soci_core)
+target_link_libraries(${PROJECT_NAME} soci_core soci_mysql)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -22,4 +22,4 @@ set_target_properties(${PROJECT_NAME} PROPERTIES
         VERSION ${PROJECT_VERSION}
         SOVERSION 1)
 # to fix
-#add_subdirectory(tests)
+add_subdirectory(tests)
