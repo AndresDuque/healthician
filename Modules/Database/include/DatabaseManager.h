@@ -7,6 +7,8 @@
 // #include <sqlite3.h>
 #include <string>
 #include <memory>
+#include "soci/soci.h"
+#include "soci/sqlite3/soci-sqlite3.h"
 
 namespace db{
     class DatabaseManager{
