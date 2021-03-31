@@ -18,7 +18,7 @@ target_sources(${PROJECT_NAME} PRIVATE
         include/Massage.h
         )
 
-target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED})
+target_link_libraries(${PROJECT_NAME} ${REQUIRED_LIBS_QUALIFIED} )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
