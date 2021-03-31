@@ -22,6 +22,11 @@ jobs:
       # We'll use this as our working directory for all subsequent commands
       run: cmake -E make_directory ${{github.workspace}}/build
 
+    - name: Install Qt
+      uses: jurplel/install-qt-action@v2.13.0
+      with:
+        modules: 'qtcore'
+
     - name: Configure CMake
       # Use a bash shell so we can use the same syntax for environment variable
       # access regardless of the host operating system
@@ -44,10 +49,5 @@ jobs:
       # Execute tests defined by the CMake configuration.  
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: ctest -C $BUILD_TYPE
-
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v2.13.0
-      with:
-        modules: 'qt5core'
 
 
