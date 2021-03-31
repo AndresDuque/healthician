@@ -30,6 +30,12 @@ jobs:
     - name: Install gtest manually
       run: sudo apt-get install libgtest-dev
 
+    - name: Install sqlite3 manually
+      run: sudo apt-get install libsqlite3-dev
+
+    - name: Install mysql manually
+      run: sudo apt install libmysqlclient-dev
+
     - name: Configure CMake
       # Use a bash shell so we can use the same syntax for environment variable
       # access regardless of the host operating system
