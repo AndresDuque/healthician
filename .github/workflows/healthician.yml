@@ -47,4 +47,7 @@ jobs:
 
     - name: Install Qt
       uses: jurplel/install-qt-action@v2.13.0
+      with:
+        modules: 'qt5core'
+
 
